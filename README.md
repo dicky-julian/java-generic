@@ -70,9 +70,7 @@ means that we can substitute subtype (child) with supertype (parent), with keywo
 
 > ?extends ParentClass
 
-:::warning
-Covariant is read-only, so we cant write data generic.
-:::
+:warning: **Covariant is read-only, so we cant write data generic.**
 
 ```
 public static void main(String[] args) {
@@ -94,9 +92,7 @@ it's the opposite of Covariant, which we can substitute supertype (parent) with 
 
 > ?super SubClass
 
-:::warning
-we can do read-write in Contravariant, but we must be careful when get (read) data.
-:::
+:warning: **we can do read-write in Contravariant, but we must be careful when get (read) data.**
 
 ```
 public static void main(String[] args) {
